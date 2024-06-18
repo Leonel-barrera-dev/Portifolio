@@ -177,7 +177,6 @@ nav ul li a:hover {
     justify-content: center;
 }
 
-
 /* SERVIÇOS */
 
 #servicos {
@@ -391,9 +390,6 @@ nav ul li a:hover {
 /* TELAS MENORES MENU */
 
 @media (max-width: 768px) {
-    .hover-galeria p img {
-        width: 18%;
-    }
 
     .hamburguer {
         display: block;
@@ -416,5 +412,20 @@ nav ul li a:hover {
 
     nav ul {
         background: linear-gradient(120deg, #aaaaaae3, #ffa600e3, #454545e3);
+    }
+
+    #projetos {
+        height: 100vh;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+
+    .galeria-port {
+        height: 80%;
+    }
+
+    .imagem-port {
+        height: 28vh;
+        width: 48%;
     }
 }
