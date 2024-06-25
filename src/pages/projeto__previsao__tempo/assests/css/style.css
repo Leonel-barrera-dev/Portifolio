@@ -14,14 +14,14 @@ body {
     /* Altura / vh - altura */
     width: 100vw;
     /*  vw - largura */
-    background-image: url("https://s2.glbimg.com/5uI8_cyaBaHhJt5PX4j1ZeWTfAg=/e.glbimg.com/og/ed/f/original/2020/01/22/tumblr_554eccfa803573ad6cd84bfb555d948b_a84bbc8b_540.gif");
+    background-image: url("https://i.pinimg.com/originals/fd/15/5a/fd155a322ac6de2bf5d3218924def20b.gif");
     color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .caixa_maior {
-    background-color: #000000b4;
+    background-color: #000000de;
     /*  Troca cor de fundo  */
     width: 95%;
     /*  Largura  */
