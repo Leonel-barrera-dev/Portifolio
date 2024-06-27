@@ -14,7 +14,7 @@
     <script src="src/js/script.js" defer></script>
 </head>
 
-<body>
+<body id="botao__incio">
     <!-- HEADER -->
     <header id="hero">
         <nav>
@@ -26,6 +26,9 @@
             <ul>
                 <li>
                     <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#fotos">Fotos</a>
                 </li>
                 <li>
                     <a href="#servicos">Skills</a>
@@ -64,6 +67,46 @@
         <a href="#contatos" class="botao botao_destaque">Contrate agora!</a>
     </section>
 
+    <!-- FOTOS -->
+    <section id="fotos">
+        <h2>Fotos</h2>
+        <hr>
+        <div>
+            <div class="caixa__foto">
+                <img src="src/img/fotos/buseo.jpg" alt="Imagem do Leonel baseando">
+            </div>
+
+            <div class="caixa__foto">
+                <img src="src/img/fotos/colinia.jpg" alt="Imagem do Leonel Colonia do Sacramento, Uruguay">
+            </div>
+
+            <div class="caixa__foto">
+                <img src="src/img/fotos/fumaca.jpg" alt="Imagem do Leonel na Cachoeira da Fumaça">
+            </div>
+
+            <div class="caixa__foto">
+                <img src="src/img/fotos/praca.jpg" alt="Imagem do Leonel numa praça de Argentina">
+            </div>
+
+            <div class="caixa__foto">
+                <img src="src/img/fotos/praia.jpg" alt="Imagem do Leonel na praia de Cabo Frio">
+            </div>
+
+            <div class="caixa__foto">
+                <img src="src/img/fotos/saida.jpg" alt="Imagem do Leonel com a duas mochilas de viagems">
+            </div>
+
+            <div class="caixa__foto">
+                <img src="src/img/fotos/salar.jpg" alt="Imagem do Leonel e sua mãe no salar e Uyuni, Bolivia">
+            </div>
+
+            <div class="caixa__foto">
+                <img src="src/img/fotos/escalada.jpg" alt="Imagem do Leonel escalando uma montanha">
+            </div>
+
+        </div>
+    </section>
+
     <!-- SERVIÇOS SKILS-->
     <section id="servicos">
         <h2>Skills</h2>
@@ -98,9 +141,11 @@
             </div>
             <!-- SKIL EMPREEDEDORISMO E MARKETING-->
             <div id="marketing-digital">
-                <a href="src/pages/certificado__de__marketing/certificado.html" target="_blank"><img
-                        src="src/pages/certificado__de__marketing/img/certificado.jpg"
-                        alt="Imagem de certificado de empreendedorismo e marketing"></a>
+                <a href="src/pages/certificado__de__marketing/certificado.html" target="_blank">
+                    <h3 class="titulos__h3">Saiba mais!</h3>
+                    <img src="src/pages/certificado__de__marketing/img/certificado.jpg"
+                        alt="Imagem de certificado de empreendedorismo e marketing">
+                </a>
                 <h3>Empreendedorismo e Marketing</h3>
                 <p>
                     Certificado de aluno de 8 horas de Empreendedorismo e marketing com o professor Lafeite que da
@@ -244,6 +289,11 @@
         </div>
 
     </footer>
+    <div id="up">
+        <a href="#botao__incio">
+            <i class="ri-arrow-up-s-line"></i>
+        </a>
+    </div>
 </body>
 
 </html>
