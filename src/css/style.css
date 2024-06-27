@@ -427,3 +427,78 @@ nav ul li a:hover {
         width: 48%;
     }
 }
+
+/* ANIMAÇÃO E IMAGEM */
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+
+}
+
+#fotos div img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-name: entry 25% cover 30%;
+    animation-fill-mode: both;
+}
+
+/* FOTOS */
+
+#fotos {
+    background: linear-gradient(#00000076, #00000069), url("https://www.blogdelfotografo.com/wp-content/uploads/2020/10/aprender-fotografia.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#fotos div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#fotos img {
+    width: 100%;
+    height: 100%;
+    margin: 1rem;
+}
+
+.caixa__foto {
+    width: 60%;
+    height: 60%;
+    background-color: #00000085;
+    box-shadow: 0 0 20px orangered;
+}
+
+.caixa__foto>img {
+    margin: 2px;
+}
+
+#up a i {
+    color: black;
+    background-color: white;
+    position: fixed;
+    right:  3%;
+    bottom: 3%;
+    padding: 2%;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#up a i:hover{
+    color: orangered;
+    background-color: #000000;
+}
